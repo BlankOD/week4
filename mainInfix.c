@@ -1,10 +1,11 @@
-/* mainPref.c for lab assignment 4 expressions, updated 2021 */
-
+#include <stdio.h>  /* printf */
+#include <stdlib.h> /* free */
+#include <assert.h> /* assert */
 #include "scanner.h"
-#include "prefixExp.h"
+#include "recognizeExp.h"
 #include "infixExp.h"
 
-int main(int argc, char *argv[]) {
+int main() {
   infixExpTrees();
   return 0;
 }
